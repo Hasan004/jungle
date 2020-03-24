@@ -17,7 +17,7 @@ public class jungle {
 
         aap s = new aap();
         s.sayName("h");
-        s.sayAge(18);
+        s.sayAge(19);
 
     }
 }
