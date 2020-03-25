@@ -13,11 +13,16 @@ public class jungle {
         System.out.println("my name is " + naam);
     }
 
+    public void sayroepnaam(String roepnaam){
+        System.out.println("mijn roepnaam is " + roepnaam);
+    }
+
    public static void main (String[] args) {
 
         aap s = new aap();
         s.sayName("h");
         s.sayAge(19);
+        s.sayroepnaam("hasoo");
 
     }
 }
